@@ -1,0 +1,98 @@
+.container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1850px;
+    background: #F9F9FE;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 30px auto;
+    box-shadow: 0 3px 3px -2px rgb(0 0 0 / 20%), 0 3px 4px 0 rgb(0 0 0 / 14%), 0 1px 8px 0 rgb(0 0 0 / 12%);
+}
+
+.profile {
+    width: 250px;
+    background: #ECECF9;
+}
+
+.information {
+}
+
+.profileInfo {
+    display: grid;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-area: profileInfo;
+}
+
+.cardsInfo {
+    grid-area: cardsInfo;
+    border-top: 2px solid black;
+
+}
+
+.cards {
+    grid-area: cards;
+    font-size: 30px;
+    color: #910505;
+    font-weight: 900;
+    text-align: center;
+    /* margin-right: 300px; */
+    border-bottom: 2px solid black;
+
+}
+
+.infoByUser {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.infoAvatar {
+    margin: 5px;
+    padding: 5px;
+    flex: 0 1 auto;
+    align-self: flex-start;
+    margin: 10px  auto;
+}
+
+.infoUser {
+    margin: 5px;
+    padding: 5px;
+    flex: 0 1 auto;
+    align-self: center;
+}
+
+
+.photo {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+
+
+}
+
+.textInCardsInfo {
+    text-align: center;
+}
+
+.styleForEditableSpan {
+    display: block;
+}
+
+.content {
+    width: calc(100% - 250px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 30px;
+}
+
+.buttonPosition {
+    margin-bottom: 20px;
+    align-self: self-end;
+    display: flex;
+    flex-direction: column;
+}
